@@ -1,0 +1,49 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo.n.link {
+  padding: 1.5em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li a {
+  padding: 0 .6em;
+}
+/*# sourceMappingURL=main.css.map */
