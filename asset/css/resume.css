@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Lato";
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile {
+    padding-left: 1.5em;    
+  }
+
+  .picture{
+    align-items: center;
+  }
+ 
+
+  .contact{
+    background-size: cover;
+    margin-left: 1.5em;
+  }
+
+  .middlerow{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+ 
+
+
+  
+
+  
+  @media (min-width: 853px) {
+    body {
+      font-size: 20px;
+    }
+    .container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin: 0;
+    }
+  
+    h1 {
+      font-size: 2.5em;
+    }
+    .subtitle {
+      font-size: 1.2em;
+    }
+    h2 {
+      text-align: left;
+      font-size: 2em;
+    }
+    .v-padding {
+      padding: 4em;
+    }
+    .light-purple-wrapper {
+      padding-bottom: 4em;
+    }
+    .move-up {
+      margin-top: -7em;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(130px, 1fr))[auto-fit];
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        margin-top: 2em;
+      }
+    
+  }
+ 
+  
