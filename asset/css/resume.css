@@ -39,6 +39,16 @@ body {
             justify-content: space-between;
   }
 
+  i.fa-circle.solid{
+    font-size: 10px;
+    letter-spacing: 10px;
+    color: rgb(0, 0, 0);
+}
+  i.fa-circle {
+    font-size: 10px;
+    letter-spacing: 10px;
+    color: lightgray;
+}
  
 
 
